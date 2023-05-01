@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+/* Tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General Styles */
+
+html{
+    min-height:100%;
+    width:100%;
+}
+
+body{
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: 'Overpass', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Barlow Condensed', sans-serif;
+}
